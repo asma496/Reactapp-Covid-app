@@ -11,9 +11,11 @@ import CountUp from 'react-countup';
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 345,
-    margin:'20px',
+    maxWidth: 300,
     boxShadow:'3px 3px 3px 3px #25170e',
+    color:'white',
+    margin:'20px'
+   
   },
   media: {
     height: 140,
@@ -30,13 +32,14 @@ export default function MediaCard({text,value,color}) {
           <Typography gutterBottom variant="h5" component="h2">
             {text}
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
+          <Typography variant="body2" color="textSecondary" component="p" >
            <CountUp className='count'
+
            end={value}
-           duration={5}
+           duration={4}
            separator=" "
-         decimals={4}
-         decimal=","
+       
+     
            />
           </Typography>
         </CardContent>

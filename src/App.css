@@ -1,4 +1,22 @@
 .count{
     font-size: 30px;
-    color: black;
+    color: white;
+}
+/* .merge{
+    display: inline-block;
+    display: flex;
+    flex-direction:row;
+}
+.disp{
+    width: 1000px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.val{
+    color: wheat;
+
+} */
+
+.disp{
+    margin-top: 70px;
 }

@@ -6,17 +6,13 @@ import Api from './components/Api';
 function App(){
   return(
     <>
-   
-  <Api />
+        {/* <Onbuttons /> */}
+    {/* <Room /> */}
+    <Api2 />
     </>
-  )
-}
 
-
-
-
-
-
+    
+    </>
 
 
 
